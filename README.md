@@ -27,7 +27,8 @@ This removes that separation, using a single registry and single EAC database. T
 
   - `eac.rc` settings for eac-docker (see example file `eac.rc.example`)
   - `drives.txt` CD-ROM static drive mapping (see example file `drives.txt.example`)
-  - Clone this repository to your Linux system.
+  - Clone this repository to your Linux system and navigate to it.
+  - Create common/wine and common/eac folders: `mkdir common/wine` and `mkdir common/eac`.
 
 ### drives.txt
 
