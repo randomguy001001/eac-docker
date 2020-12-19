@@ -70,7 +70,7 @@ This part is only needed once for the first time for one container. You only run
   This will first pull up `winecfg`, then install winetricks, install dotnet20, dotnet40 and vcrun2008 and finally install EAC.
   - Don't install mono or gecko.
   - When `winecfg` opens, select the Drives menu, click Add, `D:` and click OK. Next edit the path to `/cdrom`, click Show Advanced and select `Type: CD-ROM`. Click OK.
-  - Then the script continues its job. You will have to interact with the installations, just check `Accept...` on all and install. Once you get to the EAC installation, in the final step UNCHECK `Run Eac` and click finish. Now EAC is installed for all your containers and drives!
+  - Then the script continues its job. You will have to interact with the installations, just check `Accept...` on all and install. Click `Restart Later` after the .NET 4.0 setup completes. Once you get to the EAC installation, in the final step UNCHECK `Run Eac` and click finish. Now EAC is installed for all your containers and drives!
 
 ## Usage
 
