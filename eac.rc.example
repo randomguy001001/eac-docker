@@ -1,0 +1,5 @@
+DRIVECFG=./drives.txt
+COMPOSEFILE=./eac.yml
+SHARE=/home/scratch/CD
+SCREEN_WIDTH=1920
+SCREEN_HEIGHT=1080
